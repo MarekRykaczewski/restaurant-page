@@ -11,3 +11,17 @@ function clearAll() {
 
 clearAll()
 generateMenu()
+
+const homeBtn = document.querySelector("#home-btn")
+const menuBtn = document.querySelector("#menu-btn")
+const contactBtn = document.querySelector("#contact-btn")
+
+homeBtn.onclick = function() {
+    clearAll()
+    generateHome()
+}
+
+menuBtn.onclick = function() {
+    clearAll()
+    generateMenu()
+}
