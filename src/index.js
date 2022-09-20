@@ -1,5 +1,7 @@
 import generateHome from "./home.js"
 import generateMenu from "./menu.js"
+import generateContact from "./contact.js"
+
 
 const content = document.querySelector("#home-content")
 
@@ -24,4 +26,9 @@ homeBtn.onclick = function() {
 menuBtn.onclick = function() {
     clearAll()
     generateMenu()
+}
+
+contactBtn.onclick = function() {
+    clearAll()
+    generateContact()
 }
